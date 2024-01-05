@@ -1,0 +1,78 @@
+.Clients_section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 144px;
+}
+.Clients_section header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font);
+    background: none;
+}
+.Clients_section header h2{
+    text-align: center;
+    font-size: 36px;
+    color: var(--Neutral-D_Grey);
+    font-weight: 600;
+    line-height: 44px;
+}
+.Clients_section header p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--Neutral-Grey);
+    line-height: 24px;
+}
+.Clients_section footer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Clients_section footer article{
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0px 2px 4px 0px rgba(171, 190, 209, 0.20);
+    background: var(--Neutral-White);
+}
+
+.bacground-icon{
+    width: 50px;
+    height: 49px;
+    flex-shrink: 0;
+    border-radius: 18px 5px 10px 5px;
+    background: var(--Tint-T5, #E8F5E9);    
+}
+.icons-container{
+    position: relative;
+}
+.header_article{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.header_article img{
+    position: absolute;
+    z-index: 4;
+    right: 17px;
+    bottom: 8px;
+}
+.header_article h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: var(--font);
+    color: var(--Neutral-D_Grey);
+    line-height: 36px;
+}
+.Clients_section footer article footer p{
+    font-family: var(--font);
+    font-size: 14px;
+    color: var(--Neutral-Grey);
+    text-align: center;
+    line-height: 20px;
+    font-weight: 400;
+}

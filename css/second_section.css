@@ -1,0 +1,142 @@
+.second_section {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.second_section section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 661px;
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.info header {
+  width: 90%;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.info header h2 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  color: var(--Neutral-D_Grey);
+}
+.info header p {
+  color: var(--Neutral-Grey);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.info footer button {
+  padding: 14px 32px;
+  background: var(--Brand-Primary);
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--Neutral-White);
+  line-height: 24px;
+  text-align: center;
+}
+.btn_hover {
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn_hover:hover {
+  background-color: var(--Shade-S3);
+}
+.Section_title {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.Section_title h2 {
+  color: var(--Neutral-D_Grey);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px;
+}
+.Section_title h2 span {
+  color: var(--Brand-Primary);
+}
+.second_section section:nth-child(2) {
+  background-color: var(--Neutral-Silver);
+  padding: 64px 144px;
+  justify-content: space-around;
+}
+
+.Section_title p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--Text-Gray-900);
+}
+.fa-users {
+  font-size: 38px;
+  color: var(--Brand-Primary);
+}
+.conts {
+  display: grid;
+  grid-template-columns: repeat(2, 250px);
+  grid-column-gap: 30px;
+  grid-row-gap: 40px;
+}
+.conts article {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-family: var(--font);
+}
+.number h3 {
+  font-size: 28px;
+  color: var(--Neutral-D_Grey);
+  font-weight: 700;
+  line-height: 36px;
+}
+.number p {
+  color: var(--Neutral-Grey);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.second_section .section2{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 32px 144px;
+    gap: 78px;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    font-family: var(--font);
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.content p{
+    font-family: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    color: var(--Neutral-Grey);
+}
+.el h4{
+    color: var(--Brand-Primary);
+    font-size: 20px;
+    font-weight: 600px;
+    line-height: 28px;
+}
